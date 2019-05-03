@@ -72,6 +72,9 @@ input, select, textarea {
 	appearance: none;
 }
 
+::-webkit-scrollbar {
+	width:0px;
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -3466,10 +3469,6 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
-	}
-
-	::-webkit-scrollbar {
-		width:0px;
 	}
 
 /* Footer */
